@@ -10,6 +10,11 @@
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
 }
+body{
+  background-image: url("https://images.unsplash.com/photo-1517330283827-2527c57981ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+  color: white;
+  background-size: cover;
+}
 header {
   position: fixed;
   width: 100%;
@@ -29,6 +34,7 @@ header {
   padding: 10px 20px;
   color: white;
   font-size: 200%;
+  margin-left: 17vh;
 }
 .navbar a:hover {
   color: hsl(260, 100%, 51%);
@@ -42,8 +48,34 @@ header {
   font-size:  3.2rem;
   margin-top: 10vh;
 }
+.home-text span {
+  font-size:  3.2rem;
+  margin-top: 10vh;
+  color: red;
+}
 .home-text p{
   font-size:  2.2rem;
   margin-top: 10.1vh;
   text-align: justify;
+}
+.home-text img{
+  display:block;
+  margin-left: 20vh;
+
+}
+.home-text p1{
+  font-size:  2.2rem;
+  margin-top: 20.1vh;
+  text-align: justify;
+}
+.home-text p span{
+  font-size:  4.8rem;
+}
+.home-text p1 span{
+  font-size:  4.8rem;
+}
+.home-text img1{
+  display:block;
+  margin-right: 20vh;
+
 }

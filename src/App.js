@@ -1,5 +1,6 @@
 
 import './App.css';
+import Blogimg from './Component.js/Blogimg';
 import Header from './Component.js/Header';
 import Home from './Component.js/Home';
 
